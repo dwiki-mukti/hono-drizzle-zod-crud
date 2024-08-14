@@ -1,7 +1,9 @@
 {
   "name": "disbud-backend",
   "scripts": {
-    "dev": "tsx watch index.ts"
+    "dev": "tsx watch index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx ./app/database/migrate.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.12.0",
