@@ -1,0 +1,17 @@
+{
+  "name": "disbud-backend",
+  "scripts": {
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "drizzle-orm": "^0.33.0",
+    "hono": "^4.5.5",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "drizzle-kit": "^0.24.0",
+    "tsx": "^4.17.0"
+  }
+}
