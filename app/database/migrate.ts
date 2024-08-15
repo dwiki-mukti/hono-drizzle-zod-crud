@@ -6,3 +6,5 @@ import db from '.';
 await migrate(db, { migrationsFolder: './.drizzle' });
 
 await connection.end();
+
+process.exit()
